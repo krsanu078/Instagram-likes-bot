@@ -55,9 +55,9 @@ class Instagram:
 
         
 
-Username="iam_s_a_n_u"#(input("Phone number, username or email address "))
-Password="Sam078@bunny"#getpass.getpass()
-Promotion_id="__mise.en.scene_"#input("Enter insta id of person to like ")
+Username=input("Phone number, username or email address ")
+Password=getpass.getpass()
+Promotion_id=input("Enter instagram id of person whose post you want to like ")
 obj=Instagram()
 
 
